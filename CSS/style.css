@@ -83,7 +83,7 @@ html {
       rgb(38, 39, 39) 0%,
       rgba(39, 39, 39, 0) 100%
     ),
-    url(Gaurav.JPG);
+    url(/Gaurav.JPG);
   background-size: cover;
 }
 #Home h1 {
@@ -110,7 +110,7 @@ html {
   border-bottom: 17rem solid rgb(231, 184, 96);
 }
 .simage {
-  background-image: url("Gaurav.JPG");
+  background-image: url("/Gaurav.JPG");
   width: 17rem;
   height: 17rem;
   background-size: cover;
@@ -289,23 +289,23 @@ html {
 }
 #Fashion {
   background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.466)),
-    url("Images/Projects/FashionStreak/preview.jpg");
+    url("/Images/Projects/FashionStreak/preview.jpg");
 }
 #FoodB {
   background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.466)),
-    url("Images/Projects/FoodBlog/PicsArt_11-10-04.59.47.png");
+    url("/Images/Projects/FoodBlog/PicsArt_11-10-04.59.47.png");
 }
 #Travel {
   background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.466)),
-    url("Images/Projects/Travelling/PicsArt_11-10-05.02.45.png");
+    url("/Images/Projects/Travelling/PicsArt_11-10-05.02.45.png");
 }
 #AB {
   background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.466)),
-    url("Images/Projects/PythonApp/PicsArt_11-10-05.07.16.png");
+    url("/Images/Projects/PythonApp/PicsArt_11-10-05.07.16.png");
 }
 #FashionA {
   background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.466)),
-    url("Images/Projects/MobileApp/PicsArt_11-10-07.11.18.jpg");
+    url("/Images/Projects/MobileApp/PicsArt_11-10-07.11.18.jpg");
 }
 #deskdiv {
   position: absolute;

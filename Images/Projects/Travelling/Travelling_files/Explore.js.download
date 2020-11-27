@@ -1,0 +1,22 @@
+$(document).ready(function() {
+  $("#Ex-w").click(function() {
+    $("#myUL").css("display", "block");
+    $("#Cl-w").css("display", "block");
+    $("#Ex-w").css("display", "none");
+  });
+  $("#Cl-w").click(function() {
+    $("#myUL").css("display", "none");
+    $("#Cl-w").css("display", "none");
+    $("#Ex-w").css("display", "block");
+  });
+  $("#Ex-m").click(function() {
+    $("#myUL").css("display", "block");
+    $("#Cl-m").css("display", "block");
+    $("#Ex-m").css("display", "none");
+  });
+  $("#Cl-m").click(function() {
+    $("#myUL").css("display", "none");
+    $("#Cl-m").css("display", "none");
+    $("#Ex-m").css("display", "block");
+  });
+});

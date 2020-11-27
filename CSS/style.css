@@ -1,0 +1,376 @@
+body {
+  background-color: rgb(51, 53, 53);
+}
+html {
+  overflow: hidden;
+}
+::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgb(0, 0, 0);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(240, 196, 116);
+  border-radius: 20rem;
+}
+.main-container {
+  height: 41rem;
+}
+#about,
+#Resume,
+#Service,
+#Portfolio,
+#Contact {
+  transition: 1s ease;
+  position: absolute;
+  opacity: 0;
+  z-index: 0;
+  top: 0%;
+  overflow: auto;
+}
+#Home {
+  position: relative;
+  z-index: 1;
+}
+.navlinks {
+  display: flex;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+#Hlink,
+#Hmlink {
+  color: rgb(231, 184, 96);
+  text-shadow: 0 0 2px rgb(231, 184, 96);
+  font-weight: 600;
+  font-size: 1rem;
+}
+.navlinks p {
+  margin: 0 0 0 0.5rem;
+  font-size: 0.8rem;
+}
+.social {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100px;
+}
+.logo h1 {
+  color: rgb(231, 184, 96);
+  font-family: "Great Vibes", cursive;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+.col-md-2 {
+  background-color: rgb(38, 39, 39);
+}
+.social {
+  font-size: 1.2rem;
+}
+.social a,
+.nav-link {
+  color: white;
+}
+#Home {
+  background-image: linear-gradient(
+      to right,
+      rgb(38, 39, 39) 0%,
+      rgba(39, 39, 39, 0) 100%
+    ),
+    url(/Gaurav.JPG);
+  background-size: cover;
+}
+#Home h1 {
+  color: rgb(231, 184, 96);
+}
+.name {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  text-shadow: 0 0 30px rgb(79, 88, 99);
+  font-weight: 900;
+}
+.name h1 {
+  font-size: 70px;
+}
+.imagediv {
+  position: relative;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 0px solid rgb(231, 184, 96);
+  border-right: 17rem solid transparent;
+  border-bottom: 17rem solid rgb(231, 184, 96);
+}
+.simage {
+  background-image: url("/Gaurav.JPG");
+  width: 17rem;
+  height: 17rem;
+  background-size: cover;
+  position: absolute;
+  left: 3%;
+  top: -3%;
+}
+.info {
+  text-align: start;
+  width: 30rem;
+}
+.info h2 {
+  font-family: "Raleway", sans-serif;
+  margin: 0.6rem 0;
+  color: rgb(231, 189, 110);
+  font-weight: 900;
+}
+.info h5 {
+  font-family: "Raleway", sans-serif;
+  margin: 0 0 1rem 0;
+  letter-spacing: 1px;
+  font-weight: 900;
+  font-size: 1rem;
+}
+.info p {
+  font-family: "Playfair Display", serif;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  margin-top: 1rem;
+}
+.abcontent {
+  display: flex;
+  margin: 5rem 0 0 0;
+  justify-content: space-evenly;
+}
+#Home h1,
+#Home h3,
+#about h1,
+#Resume h1,
+#Service h1,
+#Portfolio h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+}
+.interestdiv h2 {
+  font-weight: 900;
+  line-height: 0%;
+  font-size: 1.7rem;
+  font-family: "Raleway", sans-serif;
+}
+.tile {
+  width: 4.5rem;
+}
+.tile i {
+  color: rgb(231, 184, 96);
+  font-size: 1.2rem;
+}
+.tile strong {
+  font-family: "Playfair Display", sans-serif;
+  margin-left: 0.5rem;
+  font-weight: 100;
+  font-size: 1rem;
+}
+.education h2 {
+  font-weight: 900;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  color: rgb(231, 184, 96);
+}
+.Etileborder {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(231, 184, 96) 0%,
+    rgb(51, 53, 53),
+    rgb(51, 53, 53)
+  );
+  width: 300px;
+  padding: 2px;
+  font-family: "Raleway", sans-serif;
+}
+.Etile h3,
+.Etile h5 {
+  font-weight: 900;
+  line-height: 1;
+}
+.Etile h3 {
+  font-size: 1.2rem;
+}
+.Etile h5 {
+  font-size: 0.9rem;
+}
+.Etile {
+  background-color: rgb(51, 53, 53);
+  padding: 1rem 1.5rem;
+}
+.Etile p {
+  font-family: "Playfair Display", sans-serif;
+}
+.Scontainer {
+  text-align: start;
+  padding: 0.2rem 1rem;
+  width: 25rem;
+}
+.bar {
+  height: 100%;
+  background-color: rgb(231, 184, 96);
+  border-radius: 20px;
+}
+.Barcon {
+  width: 100%;
+  height: 10px;
+  background-color: rgb(95, 93, 93);
+  margin: 0.4rem 0;
+  border-radius: 20px;
+}
+.Scontainer h5 {
+  font-family: "Raleway", serif;
+  font-weight: 900;
+  font-size: 0.8rem;
+}
+#Service {
+  font-family: "Raleway", sans-serif;
+}
+.Card {
+  width: 250px;
+  height: 250px;
+  border: 1px dashed rgb(231, 184, 96);
+  font-family: "Raleway", sans-serif;
+  padding: 1rem;
+  margin: 1rem;
+  display: inline-block;
+}
+.Card i {
+  font-size: 5rem;
+  color: rgb(240, 196, 116);
+  margin: 0.5rem 0 0 0;
+}
+.Card p {
+  font-size: 0.9rem;
+  font-family: "Playfair Display", sans-serif;
+}
+.Card h3 {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+.Bcontainer button {
+  background: none;
+  border: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: white;
+  transition: 0.2s ease;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  margin: 1rem;
+}
+.Bcontainer .active {
+  color: rgb(231, 184, 96);
+  border-bottom: 2px solid rgb(231, 184, 96);
+}
+.pcard {
+  width: 250px;
+  height: 250px;
+  font-family: "Playfair Display", sans-serif;
+  background-size: cover;
+  object-fit: cover;
+  margin: 0.5rem;
+  cursor: pointer;
+  transition: 0.5 ease;
+}
+.pcard h2 {
+  font-weight: 900;
+}
+#Fashion {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.466)),
+    url("/Images/Projects/FashionStreak/preview.jpg");
+}
+#FoodB {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.466)),
+    url("/Images/Projects/FoodBlog/PicsArt_11-10-04.59.47.png");
+}
+#Travel {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.466)),
+    url("/Images/Projects/Travelling/PicsArt_11-10-05.02.45.png");
+}
+#AB {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.466)),
+    url("/Images/Projects/PythonApp/PicsArt_11-10-05.07.16.png");
+}
+#FashionA {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.466)),
+    url("/Images/Projects/MobileApp/PicsArt_11-10-07.11.18.jpg");
+}
+#deskdiv {
+  position: absolute;
+  top: 0%;
+  z-index: 2000;
+  transform: translateX(-13rem);
+  transition: 0.5s ease;
+}
+.navbuttons,
+.navbuttons button {
+  position: absolute;
+  right: -19%;
+  top: 48%;
+  background: none;
+  color: white;
+  border: none;
+  outline: none;
+}
+.navbuttons i {
+  font-size: 1.2rem;
+  color: rgb(231, 189, 110);
+}
+#close-n {
+  display: none;
+}
+.CCard {
+  background-color: rgb(70, 71, 71);
+  width: 22rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  margin: 2rem 0 0 0;
+}
+.CCard .icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  /* background-color: rgb(231, 184, 96); */
+  border: 1px dashed rgb(231, 184, 96);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  margin: 0 1rem;
+  color: rgb(231, 184, 96);
+}
+.CCard .CDetails {
+  width: 150px;
+  margin: 0 1rem;
+  text-align: start;
+}
+.CDetails h3 {
+  font-family: "Raleway", sans-serif;
+  margin: 0 0 0.5rem 0;
+  letter-spacing: 1px;
+  font-weight: 900;
+  font-size: 1rem;
+}
+.CDetails p {
+  font-family: "Playfair Display", sans-serif;
+}
+.CContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem 0;
+}

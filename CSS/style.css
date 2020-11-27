@@ -83,7 +83,7 @@ html {
       rgb(38, 39, 39) 0%,
       rgba(39, 39, 39, 0) 100%
     ),
-    url(https://gauravdhawale.github.io/Gaurav.JPG);
+    url(https://gauravdhawale.github.io/Gaurav.jpg);
   background-size: cover;
 }
 #Home h1 {
@@ -110,7 +110,7 @@ html {
   border-bottom: 17rem solid rgb(231, 184, 96);
 }
 .simage {
-  background-image: url("https://gauravdhawale.github.io/Gaurav.JPG");
+  background-image: url("https://gauravdhawale.github.io/Gaurav.jpg");
   width: 17rem;
   height: 17rem;
   background-size: cover;

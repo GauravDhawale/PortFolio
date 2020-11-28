@@ -8,6 +8,7 @@ var Food=document.getElementById("FoodB");
 var Travel=document.getElementById("Travel");
 var FApp=document.getElementById("FashionA");
 var AB=document.getElementById("AB");
+var FHR=document.getElementById("FHR");
 
 var Hl=document.getElementById("Hlink");
 var Al=document.getElementById("Alink");
@@ -61,10 +62,12 @@ WebP.addEventListener("click",()=>{
     FApp.classList.remove("d-flex");
     AB.classList.add("d-none");
     AB.classList.remove("d-flex");
+    FHR.classList.add("d-flex");
+    FHR.classList.remove("d-none");
     WebP.classList="active";
     MobileP.classList-="active";
     AllP.classList-="active";
-    DesktopP.classList-="active";    
+    DesktopP.classList-="active"; 
 })
 AllP.addEventListener("click",()=>{
     Fashion.classList.add("d-flex");
@@ -77,6 +80,8 @@ AllP.addEventListener("click",()=>{
     FApp.classList.remove("d-none");
     AB.classList.add("d-flex");
     AB.classList.remove("d-none");
+    FHR.classList.add("d-flex");
+    FHR.classList.remove("d-none");
     WebP.classList-="active";
     MobileP.classList-="active";
     AllP.classList="active";
@@ -93,6 +98,8 @@ MobileP.addEventListener("click",()=>{
     FApp.classList.remove("d-none");
     AB.classList.add("d-none");
     AB.classList.remove("d-flex");
+    FHR.classList.add("d-none");
+    FHR.classList.remove("d-flex");
     WebP.classList-="active";
     MobileP.classList="active";
     AllP.classList-="active";
@@ -109,6 +116,8 @@ DesktopP.addEventListener("click",()=>{
     FApp.classList.remove("d-flex");
     AB.classList.add("d-flex");
     AB.classList.remove("d-none");
+    FHR.classList.add("d-none");
+    FHR.classList.remove("d-flex");
     WebP.classList-="active";
     MobileP.classList-="active";
     AllP.classList-="active";

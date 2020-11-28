@@ -304,6 +304,10 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.466)),
     url("../Images/Projects/MobileApp/PicsArt_11-10-07.11.18.jpg");
 }
+#FHR{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.466)),
+    url("../Images/Projects/FoodHub/Home.png");
+}
 #deskdiv {
   position: absolute;
   top: 0%;
